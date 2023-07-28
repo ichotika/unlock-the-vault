@@ -18,6 +18,7 @@
 		"typography": {
 			"fontFamilies": [
 				{
+					"fontFace": [],
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
@@ -54,18 +55,18 @@
 					"fontFace": [
 						{
 							"fontFamily": "Montserrat",
-							"fontStyle": "italic",
+							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/montserrat_italic_400.ttf"
+								"file:./assets/fonts/montserrat_normal_400.ttf"
 							]
 						},
 						{
 							"fontFamily": "Montserrat",
-							"fontStyle": "italic",
+							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/montserrat_italic_700.ttf"
+								"file:./assets/fonts/montserrat_normal_700.ttf"
 							]
 						}
 					],
@@ -75,6 +76,18 @@
 			]
 		},
 		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|righteous"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|montserrat"
+		}
 	},
 	"templateParts": [
 		{
